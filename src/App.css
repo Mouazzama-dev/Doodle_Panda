@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+  font-family: "HoneyBear"; 
+  src: local("HoneyBear"),
+    url("./../public/fonts/HoneyBear.ttf") format("truetype");
+}
+.font-honey { font-family: "HoneyBear";  }
+.font-Rajdhani { font-family: 'Rajdhani', sans-serif; }
+body{   background-color: #03c5ef; overflow-x: hidden;  }
+p { font-family: 'Montserrat', sans-serif; }
+.fs12px{ font-size: 12px; }
+.fs13px{ font-size: 13px; }
+.fs14px{ font-size: 14px; }
+.fs15px{ font-size: 15px; }
+.fs16px{ font-size: 16px; }
+.fs17px{ font-size: 17px; }
+.fs18px{ font-size: 18px; }
+.fs19px{ font-size: 19px; }
+.fs20px{ font-size: 20px; }
+.fs21px{ font-size: 21px; }
+.fs22px{ font-size: 22px; }
+.fs23px{ font-size: 23px; }
+.fs3rem{ font-size: 3rem;}
+.fs4rem{ font-size: 4rem;}
+.fs5rem{ font-size: 5rem;}
+.text-blue { color: #03c5ef; }
+.text-pink {  color: #f4abba; }
+.text-purple { color: #5865f2; }
+.bg-purple { background-color: #5865f2; }
+.fw-600 { font-weight: 600; }
+.banner-dood {
+  top: 10em;
+  left: 0;
+  right: 0;
+  width: 41%;
+  margin: auto;
+}
+.banner-dood img { width: 100%;  }
+.header-navbar .nav-link {
+  font-size: 22px;
+  color: #03c5ef;
+  font-weight: 600;
+  padding: 0px 14px !important;
+  font-family: 'Rajdhani', sans-serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn-theme {
+  display: block;
+  margin: 16px auto 33px;
+  width: 100%;
+  max-width: 332px;
+  padding: 11px;
+  font-size: 19px;
+  transition: all 0.4s ease;
+}
+.btn-theme:hover, .btn-theme:active, .btn-theme:focus {
+  background-color: #433e3f !important;  
+  transform: translateY(0px) rotateX(-360deg);
+}
+  
+.bg-achievement{
+    background-image: url('./../public/images/bg-banner03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.faq-sec .accordion {  margin-top: 26px; }
+.faq-sec .accordion .accordion-item {  margin-top: 8px;  }
+.faq-sec .accordion .accordion-item button {
+  color: #f4abba;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #fff !important;
+  outline: none !important;
+  box-shadow: 0px 0px !important;
+}
+.faq-sec .accordion .accordion-item .accordion-body {
+  font-size: 16px;
+  color: #988a8a;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 0px;
+}
+.panda-move{ margin-top: -70px; }
+.arrow-right {
+    position: absolute;
+    right: 15%;
+    top: -45px;
+    width: 100%;
+    max-width: 215px;
+}
+.before-circle:before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 0;
+    margin: auto;
+    bottom: -60px;
+    background: #0dbbe1;
+    height: 135px;
+    border-radius: 50% 50%;
+    width: 77%;
+    z-index: -1;
+}
+.header-logo{
+  position: absolute;
+  top: -57px;
+  z-index: 1;
+  left: -9px;
+}
+.maxWidth900px{ max-width: 900px; }
+.left-right-wind:before {
+  content: "";
+  position: absolute;
+  left: -53px;
+  width: 13%;
+  height: 37%;
+  background-image: url('../public/images/light.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 13%;
+}
+.left-right-wind:after {
+  content: "";
+  position: absolute;
+  right: -21px;
+  width: 10%;
+  height: 37%;
+  background-image: url('../public/images/light.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 38%;
+}
+.owl-theme .owl-item img {
+  max-width: 300px;
+  margin: auto;
+}
+.owl-theme .owl-dots {  display: none; }
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 28%;
+  bottom: 0;
+  margin: auto;
+  height: 17%;
+  width: 100%;
+  z-index: 1;
+}
+.owl-theme .owl-nav .owl-prev {
+  color: #fff !important;
+  font-size: 99px !important;
+  float: left;
+  outline: none;
+  font-weight: 300 !important;
+  line-height: 0.4 !important;
+  margin-left: -36px !important;
+  background-color: transparent !important;
+}
+.owl-theme .owl-nav .owl-next {
+  color: #fff !important;
+  outline: none;
+  font-size: 99px !important;
+  float: right;
+  font-weight: 300 !important;
+  line-height: 0.3 !important;
+  margin-right: -36px !important;
+  background-color: transparent !important;
+}
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@media only screen and (max-width : 640px) {
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    display: none;  }
+    .owl-carousel .owl-item h2 {  font-size: 15px; }
+    .owl-carousel .owl-item p { font-size: 10px; }
+    .arrow-right, .left-right-wind:before, .left-right-wind:after {  display: none; }
+    .navbar-toggler { border: 0px; outline: none !important; }
+    .header-navbar.navbar-nav {  padding-top: 26px; }
+    .banner-dood {  top: 2em; }
+}
+
+
+
+
+
+
+
